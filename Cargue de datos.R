@@ -4,12 +4,12 @@ install.packages("readxl")
 # Cargar el paquete readxl
 library(readxl)
 
-# Especificar la ruta del archivo de Excel
+# Especificar la ruta del archivo de Excel usar (/)
 ruta_archivo <- "C:/Users/acerc/OneDrive/Escritorio/Diseño de experimentos/Exp1.xlsx"
 
 # Leer el archivo de Excel
 datos <- read_excel(ruta_archivo)
 
-# Mostrar los primeros registros del archivo
-print(datos)
-
+# Mostrar los primeros registros del archivo head para los primeros 6 ,
+# Mostrar todos los registros Print
+head(datos)
