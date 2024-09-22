@@ -35,4 +35,5 @@ hist_sin_modificar <-ggplot(datos, aes(x = `Sin Modificar`)) +
   ylab("Frecuencia")
 
 # Mostrar ambos gráficos en una sola visualización
+# Mostrar ambos graficos
 grid.arrange(hist_modificado, hist_sin_modificar, ncol = 2)
