@@ -7,7 +7,7 @@ library(readxl)
 # Especificar la ruta del archivo de Excel usar (/)
 ruta_archivo <- "C:/Users/acerc/OneDrive/Escritorio/Diseño de experimentos/Exp1.xlsx"
 
-# Leer el archivo de Excel
+# Crea base de datos desde el archivo de Excel
 datos <- read_excel(ruta_archivo)
 
 # Mostrar los primeros registros del archivo head para los primeros 6 ,
